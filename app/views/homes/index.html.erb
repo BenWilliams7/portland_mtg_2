@@ -4,7 +4,7 @@
 
 <h3><%= current_user.email if current_user %></h3>
 <% if current_user %>
-  <%= link_to 'sign out', destroy_user_session_path, method: :delete %><br><br>
+  <%= link_to 'sign out', destroy_user_session_path, method: :get %><br><br>
 <% end %>
 
 <%= link_to 'sign in', new_user_session_path if !current_user %><br><br>

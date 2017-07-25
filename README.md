@@ -1,24 +1,8 @@
-# README
+# Portland Magic calendar
+This calendar will display all of the relevant events in the Portland area. It will eventually be able to filter and organize events that it populates automatically through web scraping of other sites. Certain Users will be able to update and delete events, though Admin will have full control.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Current Status
+Users can add events to specific calendar days. Non-Users can see the calendar but cannot add or edit. Admin has full control.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Next Steps
+Having sort and color coding, hosting the website on Heroku, and having a notes section for user feedback. The step after that would be to implement web scraping (Nokogiri?). I've looked into it and have made fledgling attempts. The calendar can interpret JSON, so the framework is in place for this implementation. 

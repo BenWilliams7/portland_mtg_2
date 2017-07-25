@@ -8,6 +8,14 @@ RailsAdmin.config do |config|
   # end
   # config.current_user_method(&:current_user)
 
+  config.authorize_with do
+    unless current_user.try(:admin?)
+      flash[:error] = "You are not an admin"
+      redirect_to main_app.root_path
+    end
+  end
+
+
   ## == Cancan ==
   # config.authorize_with :cancan
 

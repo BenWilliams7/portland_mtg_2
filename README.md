@@ -5,4 +5,9 @@ This calendar will display all of the relevant events in the Portland area. It w
 Users can add events to specific calendar days. Non-Users can see the calendar but cannot add or edit. Admin has full control.
 
 ### Next Steps
-Having sort and color coding, hosting the website on Heroku, and having a notes section for user feedback. The step after that would be to implement web scraping (Nokogiri?). I've looked into it and have made fledgling attempts. The calendar can interpret JSON, so the framework is in place for this implementation. 
+Having sort and color coding, hosting the website on Heroku, and having a notes section for user feedback. The step after that would be to implement web scraping (Nokogiri?). AJAX for quick access to info. I've looked into it and have made fledgling attempts. The calendar can interpret JSON, so the framework is in place for this implementation.
+
+
+###notes:
+
+strftime (method for user friendly)

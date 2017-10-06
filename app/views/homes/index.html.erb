@@ -2,6 +2,8 @@
 
 <h1>Welcome to PDX MTG NEXUS</h1>
 
+<%= link_to 'Events', event_path %>
+
 <h3><%= current_user.email if current_user %></h3>
 <% if current_user %>
   <%= link_to 'sign out', destroy_user_session_path, method: :get %><br><br>
